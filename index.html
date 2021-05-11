@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="frameworks/bootstrap-4.3.1-dist/css/bootstrap.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="frameworks/fontawesome-free-5.15.3-web/css/all.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>grey-store</title>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <div class="icon-logo">
+          <a href="index.html">
+            <img class="logo" src="assets/icons//logo.png" alt="">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#collection">Collection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div class="icon-menu">
+            <a style="text-decoration: none;" href="#">
+              <img class="icon-cart ml-0 ml-lg-1" src="assets/icons/favorite.png" alt="">
+            </a>
+            <a style="text-decoration: none;" href="#">
+              <img class="icon-cart" src="assets/icons/search.png" alt="">
+            </a>
+            <a style="text-decoration: none;" href="checkout-page.html">
+              <img class="icon-cart" src="assets/icons/shopping-cart.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade mt-5" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="container">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row pt-5">
+              <div class="col-12 col-sm-4 col-md-6 col-lg-6">
+                <h1 class="text-center text-lg-left">Lorem ipsum dolor <br> sir amet</h1>
+                <p class="text-center text-lg-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi voluptates quae, 
+                  deserunt quod magni iste nemo sequi amet est molestiae consequuntur. Incidunt officia accusamus quis consequuntur eligendi aliquam voluptate dolorem.</p>
+                <div class="text-center text-lg-left">
+                  <a href="" class="btn btn-warning">See More</a>
+                </div>   
+              </div>
+              <div class="col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
+                <img src="assets/slider/1.jpg" height="350px" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row pt-5">
+              <div class="col-12 col-sm-4 col-md-6 col-lg-6">
+                <h1 class="text-center text-lg-left">Lorem ipsum dolor <br> sir amet</h1>
+                <p class="text-center text-lg-left">Felis imperdiet proin fermentum leo vel orci porta non. Tortor id aliquet lectus proin nibh nisl. Aliquam etiam erat velit scelerisque in dictum. 
+                  Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. </p>
+                <div class="text-center text-lg-left">
+                  <a href="" class="btn btn-warning">See More</a>
+                </div>
+              </div>
+              <div class="col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
+                <img src="assets/slider/2.jpg" height="350px" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row pt-5">
+              <div class="col-12 col-sm-4 col-md-6 col-lg-6">
+                <h1 class="text-center text-lg-left">Lorem ipsum dolor <br> sir amet</h1>
+                <p class="text-center text-lg-left">Faucibus a pellentesque sit amet porttitor eget dolor. Pellentesque elit eget gravida cum sociis natoque penatibus. 
+                  Ultrices mi tempus imperdiet nulla malesuada pellentesque elit.</p>
+                <div class="text-center text-lg-left">
+                  <a href="" class="btn btn-warning">See More</a>
+                </div>
+              </div>
+              <div class="col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
+                <img src="assets/slider/3.jpg" height="350px" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- End of Carousel -->
+
+    <!-- Collection -->
+    <section class="collection-list">
+      <div id="collection" class="container">
+        <div class="row p-5 text-center justify-content-between">
+          <div class="col-md mb-3 mb-lg-0">
+            <a href="collection-page.html">
+              <img width="170px" src="assets/icons/Collection A.png" alt="">
+            </a>
+          </div>
+          <div class="col-md mb-3 mb-lg-0">
+            <img width="170px" src="assets/icons/Collection A.png" alt="">
+          </div>
+          <div class="col-md mb-3 mb-lg-0">
+            <img width="170px" src="assets/icons/Collection A.png" alt="">
+          </div>
+          <div class="col-md mb-3 mb-lg-0">
+            <img width="170px" src="assets/icons/Collection A.png" alt="">
+          </div>
+          <div class="col-md mb-3 mb-lg-0">
+            <img width="170px" src="assets/icons/Collection A.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>c
+    <!-- End of Collection -->
+
+    <!-- Featured Item -->
+    <section class="features bg-light p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4>Best-Selling Products</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <a href="product-detail-page.html">
+              <figure class="figure">
+                <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+                <figcaption class="figure-caption text-center">
+                  <h5>Product item</h5>
+                  <p>USD 9.99</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/3.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Featured Item -->
+
+    <!-- Featured Item - 2 -->
+    <section class="features p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4>Featured Products</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+               <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/3.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/3.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <figure class="figure">
+              <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption text-center">
+                <h5>Product item</h5>
+                <p>USD 9.99</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Featured Item - 2 -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-1">
+            <a href="">
+              <img src="assets/icons/logo.png" width="100px" alt="...">
+            </a>
+          </div>
+          <div class="col-8 footer-icon-menu text-right ">
+              <a style="text-decoration: none;" href="">
+                <img src="assets/icons/phone.png" width="25px" alt="...">
+              </a>
+              <a style="text-decoration: none;" href="">
+                <img src="assets/icons/envelope.png" width="25px" alt="...">
+              </a>
+              <a style="text-decoration: none;" href="">
+                <img src="assets/icons/link.png" width="25px" alt="...">
+              </a>           
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-5  pt-4">
+            <p class="">All Rights Reserved by grey-store Copyright 2021</p>
+          </div>
+          <div class="col-5 pt-4">
+            <nav class="nav justify-content-end">
+              <a class="nav-link py-0" href="#">About</a>
+              <a class="nav-link py-0" href="#">Developer</a>
+              <a class="nav-link py-0" href="#">Terms</a>
+              <a class="nav-link py-0 pr-0" href="#">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="frameworks/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="frameworks/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="frameworks/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="frameworks/bootstrap-4.3.1-dist/css/bootstrap.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="frameworks/fontawesome-free-5.15.3-web/css/all.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>product-detail</title>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <div class="icon-logo">
+          <a href="index.html">
+            <img class="logo" src="assets/icons//logo.png" alt="">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#collection">Collection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div class="icon-menu">
+            <a style="text-decoration: none;" href="#">
+              <img class="icon-cart ml-0 ml-lg-1" src="assets/icons/favorite.png" alt="">
+            </a>
+            <a style="text-decoration: none;" href="#">
+              <img class="icon-cart" src="assets/icons/search.png" alt="">
+            </a>
+            <a style="text-decoration: none;" href="checkout-page.html">
+              <img class="icon-cart" src="assets/icons/shopping-cart.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Breadcrumb -->
+    <div class="container mt-5">
+      <nav>
+        <ol class="breadcrumb bg-transparent pl-0">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+        </ol>
+      </nav>
+    </div>
+    <!-- End of Breadcrumb -->
+
+    <!-- Single Product -->
+    <section class="single-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 col-lg-4">
+            <figure class="figure">
+              <img src="assets/product/1.jpg" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption">A caption for the above image.</figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-lg-4">
+            <h4>Product Item</h4>
+            <p class="text-muted">USD 99.00</p>
+            <button type="button" class="btn btn-sm" style="background-color: #EAEAEF; color: white">
+              <i class="fas fa-minus-circle"></i>
+            </button>
+            <span class="mx-2">2</span>
+            <button type="button" class="btn btn-sm btn-success">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+            <div class="button-product mt-4">
+              <a href="" class="btn btn-warning d-block text-white">Add to Cart</a>
+              <a href="" class="btn d-block mt-3" style="background-color: #EAEAEF; color: white">Add to Wishlist</a>
+            </div>
+            <div class="store">
+              <h6>Product by</h6>
+              <div class="row">
+                <div class="col-3 col-lg-2">
+                  <img src="assets/icons/user.png" width="45px" alt="">
+                </div>
+                <div class="col">
+                  <h5 class="mb-0">Store A</h5>
+                  <p>Kota Bogor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Single Product -->
+
+    <!-- Product Description -->
+    <section class="product-description bg-light p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active bg-transparent" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                <p>Description</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-transparent" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                <p>Review</p>
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active text-dark pl-0 pt-3 pr-3 text-justify" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Magna eget est lorem ipsum dolor sit amet consectetur. Nam aliquam sem et tortor consequat. 
+                Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Urna neque viverra justo nec ultrices dui sapien eget mi. 
+                Pharetra pharetra massa massa ultricies. Elementum facilisis leo vel fringilla est. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Tincidunt lobortis feugiat vivamus at augue. 
+                Purus sit amet volutpat consequat mauris nunc congue. Integer enim neque volutpat ac tincidunt vitae semper quis lectus. 
+                Pellentesque pulvinar pellentesque habitant morbi tristique senectus.</p> 
+              <p>Quisque id diam vel quam. Dolor magna eget est lorem ipsum. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. 
+                Turpis in eu mi bibendum. Integer vitae justo eget magna fermentum iaculis eu non. 
+                Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Porttitor massa id neque aliquam. 
+                Elementum eu facilisis sed odio. A condimentum vitae sapien pellentesque. Vulputate odio ut enim blandit. 
+                In nulla posuere sollicitudin aliquam ultrices.</p> 
+            </div>
+            <div class="tab-pane product-review fade text-white pl-0 pt-3 pr-3 text-justify" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row">
+                <div class="col-1 pl-5 d-none d-lg-block">
+                  <img src="assets/profiles/user.png" width="40px" alt="">
+                </div>
+                <div class="col">
+                  <h5>Customer A</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 pl-5 d-none d-lg-block">
+                  <img src="assets/profiles/user.png" width="40px" alt="">
+                </div>
+                <div class="col">
+                  <h5>Customer B</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 pl-5 d-none d-lg-block">
+                  <img src="assets/profiles/user.png" width="40px" alt="">
+                </div>
+                <div class="col">
+                  <h5>Customer C</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 pl-5 d-none d-lg-block">
+                  <img src="assets/profiles/user.png" width="40px" alt="">
+                </div>
+                <div class="col">
+                  <h5>Customer D</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Product Description -->
+
+    <!-- Similiar Product -->
+    <section class="similiar-product">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <h4>Similiar Products</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img src="assets/product/similiar-product1.png" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h5>Product item</h5>
+                    <p>Lorem ipsum dolor sit</p>
+                  </div>
+                  <div class="col text-right">
+                    <p>USD 99.00</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img src="assets/product/similiar-product2.png" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h5>Product item</h5>
+                    <p>Lorem ipsum dolor sit</p>
+                  </div>
+                  <div class="col text-right">
+                    <p>USD 99.00</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-4">
+            <figure class="figure">
+              <img src="assets/product/similiar-product3.png" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h5>Product item</h5>
+                    <p>Lorem ipsum dolor sit</p>
+                  </div>
+                  <div class="col text-right">
+                    <p>USD 99.00</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Simmiliar Product -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-1">
+            <a href="">
+              <img src="assets/icons/logo.png" width="100px" alt="...">
+            </a>
+          </div>
+          <div class="col-8 footer-icon-menu text-right ">
+              <a style="text-decoration: none;" href="">
+                <img src="assets/icons/phone.png" width="25px" alt="...">
+              </a>
+              <a style="text-decoration: none;" href="">
+                <img src="assets/icons/envelope.png" width="25px" alt="...">
+              </a>
+              <a style="text-decoration: none;" href="">
+                <img src="assets/icons/link.png" width="25px" alt="...">
+              </a>           
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-5  pt-4">
+            <p class="">All Rights Reserved by grey-store Copyright 2021</p>
+          </div>
+          <div class="col-5 pt-4">
+            <nav class="nav justify-content-end">
+              <a class="nav-link py-0" href="#">About</a>
+              <a class="nav-link py-0" href="#">Developer</a>
+              <a class="nav-link py-0" href="#">Terms</a>
+              <a class="nav-link py-0 pr-0" href="#">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="frameworks/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="frameworks/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="frameworks/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+  </body>
+</html>

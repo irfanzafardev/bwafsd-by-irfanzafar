@@ -1,0 +1,162 @@
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #171717;
+}
+
+.navbar .icon-logo {
+  min-width: 100px;
+}
+
+.navbar .logo {
+  width: 100px;
+}
+
+.nav-item {
+  margin-right: 24px;
+  font-weight: 400;
+}
+
+.nav-item.active a {
+  color: #F9B234 !important;
+}
+
+.nav-item a {
+  color: #fff !important;
+  font-size: 14px;
+}
+
+.navbar .icon-menu {
+  min-width: 100px;
+}
+
+.navbar .icon-cart {
+  width: 20px;
+  margin-left: 20px;
+}
+/* End of Navbar */
+
+/* Carousel */
+.carousel {
+  min-height: 500px;
+  background-color: #171717;
+  color: #fff;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.carousel h1 {
+  font-size: 42px;
+}
+
+.carousel p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.carousel a {
+  margin-top: 30px;
+}
+/* End of Carousel */
+
+/* Features */
+.features h4 {
+  font-family: 'Poppins';
+  color: #1B2690;
+}
+
+.features p {
+  font-weight: 200;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #b7b7b7;
+}
+
+.figure h5 {
+  color: #171717;
+  font-size: 16px;
+}
+/* End of Features */
+
+/* Single Product */
+
+.product-description .nav-item p {
+  color: #F9B234;
+  font-size: 16px;
+}
+
+.product-description .tab-content p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+.product-review a {
+  font-size: 16px;
+  color: #000;
+}
+
+.product-review h5 {
+  font-size: 16px !important;
+  color: #000;
+}
+
+.product-review p {
+  margin-top: -10px;
+  font-size: 14px !important;
+  color: #000;
+}
+/* End of Single Product */
+
+/* Similiar Product */
+.similiar-product h4 {
+  font-family: 'Poppins';
+  color: #1B2690;
+}
+
+.similiar-product p {
+  font-weight: 200;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #b7b7b7;
+}
+
+.similiar-product h5 {
+  color: #171717;
+  font-size: 16px;
+}
+/* End of Similiar Product */
+
+/* Shopping Cart */
+.checkout-detail {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #171717;
+}
+/* End of Shopping Cart */
+
+/* Footer */
+footer p {
+  color: #000;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: #000;
+  font-size: 14px;
+}
+
+footer .footer-icon-menu img {
+  margin-left: 20px;
+  padding-bottom: 0;
+}
+
+.breadcrumb {
+  margin-top: 100px;
+}
+
+.store {
+  margin: 60px 0;
+}
+/* End of Footer */
